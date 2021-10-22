@@ -1,19 +1,19 @@
 
-.aa {
+body {
   margin: 0px;
 }
 
 .a {
   margin-left: 0;
   height: 50px;
-  width: 370px;
+  width: 350px;
   background-color: greenyellow;
   margin-bottom: 10px;
 }
 .b {
   margin-left: 0;
   height: 50px;
-  width: 380px;
+  width: 360px;
   background-color: greenyellow;
 }
 
