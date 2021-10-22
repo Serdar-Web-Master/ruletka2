@@ -1,11 +1,13 @@
 
 .a {
+  margin-left: 0;
   height: 50px;
   width: 400px;
   background-color: greenyellow;
   margin-bottom: 10px;
 }
 .b {
+  margin-left: 0;
   height: 50px;
   width: 450px;
   background-color: greenyellow;
