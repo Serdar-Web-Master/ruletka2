@@ -1,0 +1,135 @@
+
+.a {
+  height: 50px;
+  width: 400px;
+  background-color: greenyellow;
+  margin-bottom: 10px;
+}
+.b {
+  height: 50px;
+  width: 450px;
+  background-color: greenyellow;
+}
+
+
+
+
+.pole {
+  width: 300px;
+  height: 300px;
+  background: url("3.png") center no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.baraban {
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  margin: 50px 0px 0px 0px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  animation-name: vrajenie;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes vrajenie {
+  0% {
+  }
+  100% {
+    transform: rotate(-970deg);
+  }
+}
+.sharik__pole {
+  width: 300px;
+  height: 300px;
+  animation-name: sharik__pole;
+  animation-duration: 4.7s;
+  animation-fill-mode: forwards;
+  left: 0px;
+  top: 0px;
+}
+
+@keyframes sharik__pole {
+  0% {
+  }
+  90% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: rotate(1000deg);
+    opacity: 0;
+  }
+}
+
+.sharik {
+  z-index: 1;
+  display: block;
+  width: 8px;
+  height: 8px;
+  top: 0px;
+  left: 0px;
+  margin: 20px 0px 0px 147px;
+  border-radius: 50%;
+  background-color: rgb(240, 245, 245);
+  position: absolute;
+  animation-name: sharik;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sharik {
+  0% {
+  }
+  80% {
+  }
+  100% {
+    top: 21px;
+    left: 6px;
+    /* opacity: 0; */
+  }
+}
+
+.koleso {
+  width: 302px;
+  border-radius: 50%;
+  margin: -33px 0px 0px -51px;
+}
+
+.sharik2 {
+  z-index: 10;
+  display: block;
+  width: 8px;
+  height: 8px;
+  left: 50px;
+  top: 50px;
+  margin: 120px 0px 0px 44px;
+  border-radius: 50%;
+  background-color: rgb(240, 245, 245);
+  position: absolute;
+  animation-name: sharik2;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sharik2 {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+    left: 57px;
+    top: 82px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
